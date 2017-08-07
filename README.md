@@ -46,9 +46,9 @@ Add basic bootstrap / css styling.
 
 
 # Dependency Docs
-[Meteor Slingshot](https://github.com/CulturalMe/meteor-slingshot)
+Utilized [Meteor Slingshot](https://github.com/CulturalMe/meteor-slingshot) to upload to S3
 
-[Gifshot](https://github.com/yahoo/gifshot)
+[Gifshot](https://github.com/yahoo/gifshot) a library to create gifs
 
 # More Resources
-[AWS S3](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photo-album.html) 
+General [AWS S3](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photo-album.html) upload documentation if I had gone the sdk route. Referenced CORS setup but I did not use a bucket policy.
