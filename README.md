@@ -5,11 +5,11 @@ This project is still in-flight.
 
 The primary goal was to mimick a more "real-world" setup. In production, file stores should happen in the cloud, not on the server's file system or DB. That takes up too many resources.
 
-So, I'm sorry that I took this project outside of a normal Meteor MVC setup if that's what you were intending to test me on. I didn't utilize Meteor's client-side mino mongo cache nor did I make use of its webscokets / broadcasting pub / subs from the DB via DDP. Despite not completing, I hope you understand the underlying decision-making.
+I apologize for taking this project outside of a normal Meteor MVC setup if that's what you testing me on. I opted not to utilize Meteor's client-side mino mongo cache and did not make use of websockets to publich data from the DB. Despite not completing, I hope you understand my underlying decision-making.
 
-With more time, and in the real-world it would obviously sense to process the uploads on the server and store the return url's in the DB with a reference to the user's ID. But, for the scope of this test and due to lack of time, I ommitted this step.
+With more time, and in the real-world, it would make sense to store the return url's in the DB with a reference to the user's ID. But, for the scope of this test and due to lack of time, I ommitted this step.
 
-# Accomplished
+# Done
 [x]
 Configure S3 bucket policy and CORS config in AWS.
 
@@ -30,19 +30,19 @@ Temporarily display gif in browser via doc append hack.
 
 # To Do
 []
-Setup the ability for a user to download Gif via S3 url in Gif Session Variable. 
+Setup the ability for a user to download Gif via the S3 url stored in the Gif Session Variable. 
 
 []
-Grab milliseconds input, convert into appropriate metric and pass into gif create fx().
+Grab the milliseconds input, convert into appropriate metric and pass into gifshot gif create method.
 
 []
-Once functionality is 100%, refactor to move it into actual gifmaker package with Npm.depends and Npm.require etc.
+Once functionality is established, refactor code and move it into the actual gifmaker package.
 
 []
 Setup access key + secret into Meteor.settings to pass into server-side code without exposing.
 
 []
-Add basic bootstrap styling.
+Add basic bootstrap / css styling.
 
 
 # Dependency Docs
