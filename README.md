@@ -47,6 +47,7 @@ Add basic bootstrap / css styling.
 
 # Dependency Docs
 [Meteor Slingshot](https://github.com/CulturalMe/meteor-slingshot)
+
 [Gifshot](https://github.com/yahoo/gifshot)
 
 # More Resources
