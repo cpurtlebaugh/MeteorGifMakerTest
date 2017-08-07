@@ -26,5 +26,3 @@ shell-server@0.2.4
 dynamic-import@0.1.1
 ecmascript@0.8.1
 edgee:slingshot
-fortawesome:fontawesome
-dbarrett:dropzonejs
